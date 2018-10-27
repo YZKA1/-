@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background:#FFF;
+	font-size:14px;
+}
+ul{
+	list-style:none;
+}
+a{
+    color: #000000;
+}
+
+// 头部样式
+.my-header{
+    background-color:black;
+    > h1{
+        color: aliceblue;
+    }
+    > .mui-icon-search{
+        color: aliceblue;
+    }
+}
+// 导航栏样式
+.nav-links{
+    padding: 10px;
+    background-color: #fff;
+    > a{
+        width: 33.33%;
+        display: block;
+        float: left;
+        > img{
+            width: 100%;
+            vertical-align:top;
+        }
+    }
+}
+// 品牌专区样式
+.brand{
+    background-color: #fff;
+    padding: 0 10px;
+    > .title{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+        > li{
+            width: 25%;
+            float: left;
+            > a{
+                width: 100%;
+                > img{
+                    width: 100%;
+                    vertical-align:top;
+                }
+            }
+        }
+    } 
+}
+// 运动生活专区样式
+.product{
+    background-color: #fff;
+    padding:  0 10px;
+    > .title{
+        width: 100%;
+        margin: 10px 0;
+    }
+    ul{
+       width: 100%;
+       > li{
+           width: 50%;
+           float: left;
+           padding: 5px;
+           > a{
+               display: block;
+               padding:0 5px;
+               box-shadow:0 0 5px #ccc;
+               overflow: hidden;
+               > img{
+                   width: 100%;
+                   vertical-align:top;
+               }
+               > .name{
+                    line-height:18px;
+                    display:block;
+                    color:#8f8f94;
+                    text-align:center;
+                    padding:6px;
+                    height:44px;
+                    overflow:hidden;
+               }
+               > p{
+                   font-size: 12px;
+                   text-align: center;
+               }
+               > .buy-now{
+                display: block;
+                width: 80px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background: #006699;
+                color: #FFF;
+                font-size: 14px;
+                border-radius: 4px;
+                margin: 0 auto 5px auto;
+               }
+           }
+        }
+    }
+}
+.my-footer{
+    background-color: black;
+    > .mui-tab-item{
+        color: #FFF;
+    }
+    > .mui-tab-item.mui-active{
+        color:orangered;
+    }
+}
